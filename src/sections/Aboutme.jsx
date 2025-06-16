@@ -42,7 +42,7 @@ export default function About() {
                     <Cards style={{rotate:"-20deg",top:"60%",left:"0%"}} text="JS" containerRef={grid2Container}/>
                     <Cards style={{rotate:"0deg",top:"5%",left:"60%"}} text="Machine Learning" containerRef={grid2Container}/>
                     <Cards style={{rotate:"-20deg",top:"50%",left:"50%"}} text="AI" containerRef={grid2Container}/>
-                    <Cards style={{rotate:"-40deg",top:"60%",left:"70%"}} image = "public\assets\logos\reacticon.png" containerRef={grid2Container}/>
+                    <Cards style={{rotate:"-40deg",top:"60%",left:"70%"}} image = "\assets\logos\reacticon.png" containerRef={grid2Container}/>
                 </div>
             </div>
             

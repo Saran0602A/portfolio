@@ -18,27 +18,27 @@ export default function Paralloxbg() {
         <div
         className="absolute inset-0 w-full h-screen -z-50"
         style={{
-          backgroundImage: "url(../../public/assets/logos/space.jpg)",backgroundSize: "cover" , backgroundPosition : "bottom",
+          backgroundImage: "url(/assets/logos/space.jpg)",backgroundSize: "cover" , backgroundPosition : "bottom",
         }}
       />
         
         <motion.div className='absolute  inset-0 -z-40'
-        style={{backgroundImage:"url(../../public/assets/mountain-3.png)", backgroundSize: "cover",backgroundPosition:"bottom" , y: mountain3}}
+        style={{backgroundImage:"url(/assets/mountain-3.png)", backgroundSize: "cover",backgroundPosition:"bottom" , y: mountain3}}
         />
 
         
         <motion.div className='absolute  inset-0 -z-30'
-        style={{backgroundImage:"url(../../public/assets/planets.png)", backgroundSize: "cover",backgroundPosition:"bottom", x: planet}}
+        style={{backgroundImage:"url(/assets/planets.png)", backgroundSize: "cover",backgroundPosition:"bottom", x: planet}}
         />
 
         
         <motion.div className='absolute  inset-0 -z-20'
-        style={{backgroundImage:"url(../../public/assets/mountain-2.png)", backgroundSize: "cover",backgroundPosition:"bottom", y: mountain2}}
+        style={{backgroundImage:"url(/assets/mountain-2.png)", backgroundSize: "cover",backgroundPosition:"bottom", y: mountain2}}
         >
 
         </motion.div>
         <motion.div className='absolute  inset-0 -z-10'
-        style={{backgroundImage:"url(../../public/assets/mountain-1.png)", backgroundSize: "cover",backgroundPosition:"bottom", y: mountain1}}
+        style={{backgroundImage:"url(/assets/mountain-1.png)", backgroundSize: "cover",backgroundPosition:"bottom", y: mountain1}}
 >
     
 
